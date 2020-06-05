@@ -1,0 +1,40 @@
+{
+  "name": "react_bpmnjs",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "antd": "^4.2.2",
+    "babel-plugin-import": "^1.13.0",
+    "bpmn-js": "^6.3.4",
+    "bpmn-js-properties-panel": "^0.33.2",
+    "customize-cra": "^1.0.0-alpha.0",
+    "less": "^3.11.1",
+    "less-loader": "^6.1.0",
+    "react": "^16.13.1",
+    "react-app-rewired": "^2.1.6",
+    "react-dom": "^16.13.1",
+    "react-scripts": "3.4.1"
+  },
+  "scripts": {
+    "start": "react-app-rewired start",
+    "build": "react-app-rewired build",
+    "test": "react-app-rewired test",
+    "eject": "react-app-rewired eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "devDependencies": {
+    "bpmn-js-bpmnlint": "^0.15.0",
+    "bpmnlint": "^6.4.0",
+    "bpmnlint-loader": "^0.1.4",
+    "bpmnlint-pack-config": "^0.6.1",
+    "file-drops": "^0.4.0"
+  }
+}
