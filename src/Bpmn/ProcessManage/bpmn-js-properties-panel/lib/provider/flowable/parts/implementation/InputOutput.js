@@ -2,7 +2,7 @@
 
 var getBusinessObject = require('bpmn-js/lib/util/ModelUtil').getBusinessObject;
 
-var elementHelper = require('../../../../helper/ElementHelper'),
+var elementHelper = require('bpmn-js-properties-panel/lib/helper/ElementHelper'),
     extensionElementsHelper = require('../../../../helper/ExtensionElementsHelper'),
     inputOutputHelper = require('../../../../helper/InputOutputHelper'),
     cmdHelper = require('../../../../helper/CmdHelper');

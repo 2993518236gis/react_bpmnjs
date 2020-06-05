@@ -7,7 +7,7 @@ var domQuery = require('min-dom').query,
     domify = require('min-dom').domify,
     forEach = require('lodash/forEach');
 
-var elementHelper = require('../../../../helper/ElementHelper'),
+var elementHelper = require('bpmn-js-properties-panel/lib/helper/ElementHelper'),
     cmdHelper = require('../../../../helper/CmdHelper'),
     utils = require('../../../../Utils'),
     escapeHTML = utils.escapeHTML;

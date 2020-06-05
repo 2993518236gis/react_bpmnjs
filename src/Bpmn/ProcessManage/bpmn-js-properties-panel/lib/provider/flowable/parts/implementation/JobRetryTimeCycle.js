@@ -6,7 +6,7 @@ var entryFactory = require('../../../../factory/EntryFactory');
 
 var asyncCapableHelper = require('../../../../helper/AsyncCapableHelper');
 
-var elementHelper = require('../../../../helper/ElementHelper'),
+var elementHelper = require('bpmn-js-properties-panel/lib/helper/ElementHelper'),
     eventDefinitionHelper = require('../../../../helper/EventDefinitionHelper'),
     cmdHelper = require('../../../../helper/CmdHelper');
 

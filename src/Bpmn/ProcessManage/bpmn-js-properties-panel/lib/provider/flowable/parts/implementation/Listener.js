@@ -6,7 +6,7 @@ var is = require('bpmn-js/lib/util/ModelUtil').is,
 var extensionElementsEntry = require('./ExtensionElements'),
     extensionElementsHelper = require('../../../../helper/ExtensionElementsHelper'),
     cmdHelper = require('../../../../helper/CmdHelper'),
-    elementHelper = require('../../../../helper/ElementHelper'),
+    elementHelper = require('bpmn-js-properties-panel/lib/helper/ElementHelper'),
     ImplementationTypeHelper = require('../../../../helper/ImplementationTypeHelper');
 
 

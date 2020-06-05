@@ -3,7 +3,7 @@
 var entryFactory = require('../../../../factory/EntryFactory'),
     cmdHelper = require('../../../../helper/CmdHelper'),
     extensionElementsHelper = require('../../../../helper/ExtensionElementsHelper'),
-    elementHelper = require('../../../../helper/ElementHelper');
+    elementHelper = require('bpmn-js-properties-panel/lib/helper/ElementHelper');
 
 var assign = require('lodash/assign');
 var map = require('lodash/map');
@@ -32,7 +32,6 @@ var EXTERNAL_CAPABLE_PROPS = {
 };
 
 module.exports = function(element, bpmnFactory, options, translate) {
-
   var DEFAULT_OPTIONS = [
     { value: 'class', name: translate('Java Class') },
     { value: 'expression', name: translate('Expression') },

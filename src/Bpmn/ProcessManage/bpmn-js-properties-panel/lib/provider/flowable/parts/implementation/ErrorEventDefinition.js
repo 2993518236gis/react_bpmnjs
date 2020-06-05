@@ -1,8 +1,8 @@
 'use strict';
 
-var entryFactory = require('../../../../factory/EntryFactory'),
-    cmdHelper = require('../../../../helper/CmdHelper'),
-    elementReferenceProperty = require('../../../bpmn/parts/implementation/ElementReferenceProperty');
+var entryFactory = require('bpmn-js-properties-panel/lib/factory/EntryFactory'),
+    cmdHelper = require('bpmn-js-properties-panel/lib/helper/CmdHelper'),
+    elementReferenceProperty = require('bpmn-js-properties-panel/lib/provider/bpmn/parts/implementation/ElementReferenceProperty');
 
 module.exports = function(
     group, element, bpmnFactory, errorEventDefinition,

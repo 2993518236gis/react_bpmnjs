@@ -2,7 +2,7 @@
 
 var cmdHelper = require('../../../../helper/CmdHelper'),
     entryFactory = require('../../../../factory/EntryFactory'),
-    elementHelper = require('../../../../helper/ElementHelper'),
+    elementHelper = require('bpmn-js-properties-panel/lib/helper/ElementHelper'),
     extensionElementsHelper = require('../../../../helper/ExtensionElementsHelper');
 
 
