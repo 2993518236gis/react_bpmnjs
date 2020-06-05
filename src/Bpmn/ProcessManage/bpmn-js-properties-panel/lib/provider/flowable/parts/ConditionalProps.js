@@ -6,7 +6,7 @@ var is = require('bpmn-js/lib/util/ModelUtil').is,
     escapeHTML = require('../../../Utils').escapeHTML,
     domQuery = require('min-dom').query,
     cmdHelper = require('../../../helper/CmdHelper'),
-    elementHelper = require('../../../helper/ElementHelper'),
+    elementHelper = require('bpmn-js-properties-panel/lib/helper/ElementHelper'),
     eventDefinitionHelper = require('../../../helper/EventDefinitionHelper'),
     scriptImplementation = require('./implementation/Script');
 

@@ -4,12 +4,12 @@ var is = require('bpmn-js/lib/util/ModelUtil').is;
 
 var find = require('min-dash').find;
 
-var entryFactory = require('../../../factory/EntryFactory');
+var entryFactory = require('bpmn-js-properties-panel/lib/factory/EntryFactory');
 
 var cmdHelper = require('../../../helper/CmdHelper'),
     ImplementationTypeHelper = require('../../../helper/ImplementationTypeHelper'),
     scriptImplementation = require('./implementation/Script'),
-    timerImplementation = require('../../bpmn/parts/implementation/TimerEventDefinition');
+    timerImplementation = require('bpmn-js-properties-panel/lib/provider/bpmn/parts/implementation/TimerEventDefinition');
 
 module.exports = function(group, element, bpmnFactory, options, translate) {
 
@@ -88,7 +88,6 @@ module.exports = function(group, element, bpmnFactory, options, translate) {
 
     selectOptions: function(element, node) {
       var eventTypeOptions;
-
       var selectedListener = getSelectedListener(element, node);
       if (ImplementationTypeHelper.isTaskListener(selectedListener)) {
         eventTypeOptions = taskListenerEventTypeOptions;

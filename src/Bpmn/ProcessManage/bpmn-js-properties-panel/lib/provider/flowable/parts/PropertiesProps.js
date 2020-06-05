@@ -1,7 +1,7 @@
 'use strict';
 
 var properties = require('./implementation/Properties'),
-    elementHelper = require('../../../helper/ElementHelper'),
+    elementHelper = require('bpmn-js-properties-panel/lib/helper/ElementHelper'),
     cmdHelper = require('../../../helper/CmdHelper');
 
 
