@@ -10,13 +10,13 @@ var asyncCapableHelper = require('../../helper/AsyncCapableHelper'),
 var is = require('bpmn-js/lib/util/ModelUtil').is;
 
 // bpmn properties
-var processProps = require('../bpmn/parts/ProcessProps'),
-    eventProps = require('../bpmn/parts/EventProps'),
-    linkProps = require('../bpmn/parts/LinkProps'),
-    documentationProps = require('../bpmn/parts/DocumentationProps'),
-    idProps = require('../bpmn/parts/IdProps'),
-    nameProps = require('../bpmn/parts/NameProps'),
-    executableProps = require('../bpmn/parts/ExecutableProps');
+var processProps = require('bpmn-js-properties-panel/lib/provider/bpmn/parts/ProcessProps'),
+    eventProps = require('bpmn-js-properties-panel/lib/provider/bpmn/parts/EventProps'),
+    linkProps = require('bpmn-js-properties-panel/lib/provider/bpmn/parts/LinkProps'),
+    documentationProps = require('bpmn-js-properties-panel/lib/provider/bpmn/parts/DocumentationProps'),
+    idProps = require('bpmn-js-properties-panel/lib/provider/bpmn/parts/IdProps'),
+    nameProps = require('bpmn-js-properties-panel/lib/provider/bpmn/parts/NameProps'),
+    executableProps = require('bpmn-js-properties-panel/lib/provider/bpmn/parts/ExecutableProps');
 
 // flowable properties
 var serviceTaskDelegateProps = require('./parts/ServiceTaskDelegateProps'),

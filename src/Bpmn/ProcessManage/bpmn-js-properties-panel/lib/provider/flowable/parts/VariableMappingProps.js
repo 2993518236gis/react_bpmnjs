@@ -8,7 +8,7 @@ var filter = require('lodash/filter');
 
 var extensionElementsHelper = require('../../../helper/ExtensionElementsHelper'),
     cmdHelper = require('../../../helper/CmdHelper'),
-    elementHelper = require('../../../helper/ElementHelper'),
+    elementHelper = require('bpmn-js-properties-panel/lib/helper/ElementHelper'),
     eventDefinitionHelper = require('../../../helper/EventDefinitionHelper');
 
 var extensionElementsEntry = require('./implementation/ExtensionElements');
