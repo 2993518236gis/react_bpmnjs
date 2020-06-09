@@ -114,7 +114,7 @@ function getProperty(template, entry) {
   var idx = entry.id.replace('custom-' + template.id + '-', '');
   if (idx.indexOf('-') !== -1) {
     var indexes = idx.split('-');
-    if (indexes.length == 2) {
+    if (indexes.length === 2) {
       var scopeName = indexes[0].replace(/_/g, ':');
       index = parseInt(indexes[1], 10);
       if (scopeName && !isNaN(index)) {

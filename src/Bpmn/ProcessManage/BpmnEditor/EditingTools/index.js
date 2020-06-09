@@ -7,6 +7,7 @@ class EditingTools extends Component {
     };
 
     render() {
+        debugger
         const {
             onOpenFIle,
             onZoomIn,

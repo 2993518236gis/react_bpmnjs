@@ -7,6 +7,7 @@
     "babel-plugin-import": "^1.13.0",
     "bpmn-js": "^6.3.4",
     "bpmn-js-properties-panel": "^0.33.2",
+    "classnames": "^2.2.6",
     "customize-cra": "^1.0.0-alpha.0",
     "less": "^3.11.1",
     "less-loader": "^6.1.0",
@@ -24,6 +25,17 @@
   "eslintConfig": {
     "extends": "react-app"
   },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run lint-staged"
+    }
+  },
+  "lint-staged": {
+    "**/*.less": "stylelint --syntax less",
+    "**/*.{js,jsx,tsx,ts,less,md,json}": [
+      "prettier --write"
+    ]
+  },
   "browserslist": [
     ">0.2%",
     "not dead",
@@ -35,6 +47,11 @@
     "bpmnlint": "^6.4.0",
     "bpmnlint-loader": "^0.1.4",
     "bpmnlint-pack-config": "^0.6.1",
-    "file-drops": "^0.4.0"
+    "file-drops": "^0.4.0",
+    "postcss-loader": "^3.0.0",
+    "prettier": "^2.0.5",
+    "resolve-url-loader": "^3.1.1",
+    "sass-loader": "^8.0.2",
+    "stylelint": "^13.6.0"
   }
 }

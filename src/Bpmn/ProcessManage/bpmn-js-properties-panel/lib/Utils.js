@@ -235,7 +235,7 @@ function delModdleByBPMN(id) {
   // 这里用这种--i循环是为了避免splice影响原数组
   for (var i = flowElements.length - 1; i >= 0; i--) {
     const flowId = flowElements[i].$attrs['id'] || flowElements[i]['id'];
-    if (flowId == id || flowId == serviceTask || flowId == sequenceFlow) {
+    if (flowId === id || flowId === serviceTask || flowId === sequenceFlow) {
       flowElements.splice(i, 1);
     }
   }

@@ -31,21 +31,26 @@ class ProcessDesign extends PureComponent {
     const that = this;
     this.bpmnModeler = new BpmnModeler({
       container: '#canvas',
-      propertiesPanel: {
-        parent: '#properties-panel',
-      },
+      // propertiesPanel: {
+      //   parent: '#properties-panel',
+      // },
       linting: {
         bpmnlint: bpmnlintConfig,
         active: that.getUrlParam('linting')
       },
       additionalModules: [
-        propertiesPanelModule, 
-        propertiesProviderModule,
+        BpmnModeler, {
+          paletteProvider:['value',''], // 禁用左面板
+        },
+        //propertiesPanelModule, 
+        //propertiesProviderModule,
         lintModule
       ],
       moddleExtensions: {
         flowable: flowableModdle,
       },
+      height: '100%',
+      width: '100%'
     });
     const diagramXML = getDefaultXml();
     this.renderDiagram(diagramXML);
@@ -248,7 +253,7 @@ class ProcessDesign extends PureComponent {
       <div>
         <div
           // bordered={false}
-          style={{ width: '100%', height: '600px' }}
+          style={{ width: '1000px', height: '600px' }}
           // bodyStyle={{height: '100%'}}
         >
           <div className={styles.container} id="js-drop-zone">
