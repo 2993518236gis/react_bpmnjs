@@ -14,7 +14,7 @@ bpmn.js是一个BPMN2.0渲染工具包和web建模器.
 
 首先，我们先来看看整体结构
 
-![](./static\modeler1.png)
+![](./static/modeler1.png)
 
 
 
@@ -26,7 +26,7 @@ bpmn.js是一个BPMN2.0渲染工具包和web建模器.
 
 首先先看一下目录结构
 
-![](./static\modeler2.png)
+![](./static/modeler2.png)
 
 
 
