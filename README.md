@@ -746,6 +746,12 @@ const node = entryFactory.timeField({
 
 写文章不容易，如果你觉得文章对你有帮助别忘了给个`star`😄😄😄
 
+如果本文让你少花了一个星期的时间去研究bpmn-js，请给作者小姐姐一束花：
+
+
+
+![](E:\project\github\react_bpmnjs\static\zanshang.jpg)
+
 
 
 如果你有好的关于bpmn-js的使用方法、解决思路、文章可以联系`易样(作者)`投稿👏👏👏，微信号：crh2466882596
