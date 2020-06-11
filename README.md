@@ -750,7 +750,7 @@ const node = entryFactory.timeField({
 
 
 
-![](E:\project\github\react_bpmnjs\static\zanshang.jpg)
+![](https://github.com/griabcrh/react_bpmnjs/blob/master/static/zanshang.jpg)
 
 
 
