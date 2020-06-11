@@ -1,0 +1,97 @@
+.editingTools {
+    position: absolute;
+    top: 20px;
+    right: 320px;
+}
+
+.controlList {
+    display: inline-block;
+    margin-left: 10px;
+    padding: 0;
+    background: #fff;
+    border-radius: 2px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
+}
+
+.controlList li:hover {
+    background: #f3f3f3;
+}
+
+.control {
+    position: relative;
+    display: inline-block;
+    padding: 6px 8px;
+    list-style-type: none;
+}
+
+.control button {
+    padding: 0;
+    color: #555;
+    font-size: 22px;
+    line-height: 26px;
+    background: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.control .openFile {
+    display: none;
+}
+
+.control.line::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    right: 0;
+    height: 16px;
+    border-right: 1px solid #ddd;
+    transform: translateY(-50%);
+}
+
+.control button i {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    vertical-align: middle;
+}
+
+.zoom {
+    background: url('../sources/icons/zoom.svg') 0 0 no-repeat;
+}
+
+.zoomIn {
+    background: url('../sources/icons/zoomIn.svg') 0 0 no-repeat;
+}
+
+.zoomOut {
+    background: url('../sources/icons/zoomOut.svg') 0 0 no-repeat;
+}
+
+.undo {
+    background: url('../sources/icons/undo.svg') 0 0 no-repeat;
+}
+
+.redo {
+    background: url('../sources/icons/redo.svg') 0 0 no-repeat;
+}
+
+.save {
+    background: url('../sources/icons/save.svg') 0 0 no-repeat;
+}
+
+.download {
+    background: url('../sources/icons/download.svg') 0 0 no-repeat;
+}
+
+.image {
+    background: url('../sources/icons/image.svg') 0 0 no-repeat;
+}
+
+.open {
+    background: url('../sources/icons/open.svg') 0 0 no-repeat;
+}
+
+.preview {
+    background: url('../sources/icons/preview.svg') 0 0 no-repeat;
+}
