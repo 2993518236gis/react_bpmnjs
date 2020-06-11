@@ -14,7 +14,7 @@ bpmn.js是一个BPMN2.0渲染工具包和web建模器.
 
 首先，我们先来看看整体结构
 
-![](./static/modeler1.png)
+![](https://github.com/griabcrh/react_bpmnjs/blob/master/static/modeler1.png)
 
 
 
