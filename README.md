@@ -26,7 +26,7 @@ bpmn.js是一个BPMN2.0渲染工具包和web建模器.
 
 首先先看一下目录结构
 
-![](./static/modeler2.png)
+![](https://github.com/griabcrh/react_bpmnjs/blob/master/static/modeler2.png)
 
 
 
@@ -139,7 +139,7 @@ getPaletteEntries(element) {
 
 比如说我添加一个服务任务节点
 
-![](./static\modeler3.png)
+![](https://github.com/griabcrh/react_bpmnjs/blob/master/static/modeler3.png)
 
 只需要在CustomPalette.js文件中添加红框中的代码就可以了
 
@@ -298,7 +298,7 @@ contextPadProvider表示完全自定义
 
 因为bpmn.js是国外的，所以我们国内用需要翻译成中文，方法和palette一样，新建CustomTranslate.js文件；具体结合项目查看
 
-![](./static\modeler4.png)
+![](https://github.com/griabcrh/react_bpmnjs/blob/master/static/modeler4.png)
 
 
 
@@ -306,7 +306,7 @@ contextPadProvider表示完全自定义
 
 最后将上面三个自定义都引入index.js文件
 
-![](./static\modeler5.png)
+![](https://github.com/griabcrh/react_bpmnjs/blob/master/static/modeler5.png)
 
 
 
@@ -384,7 +384,7 @@ this.bpmnModeler = new BpmnModeler({
 
 官方的属性面板不好控制，于是我自定义了属性面板(将camunda的属性面板源码拿过来改的)。
 
-![](./static\modeler6.png)
+![](https://github.com/griabcrh/react_bpmnjs/blob/master/static/modeler6.png)
 
 
 
@@ -528,7 +528,7 @@ this.bpmnModeler = new BpmnModeler({
 
 
 
-![](E:\project\github\react_bpmnjs\static\assigneeList.png)
+![](https://github.com/griabcrh/react_bpmnjs/blob/master/static/assigneeList.png)
 
 
 
@@ -626,7 +626,7 @@ module.exports = function(group, element, bpmnFactory, translate) {
 
 ### 3.3 时间相关组件
 
-![](E:\project\github\react_bpmnjs\static\time.png)
+![](https://github.com/griabcrh/react_bpmnjs/blob/master/static/time.png)
 
 
 
@@ -754,7 +754,8 @@ const node = entryFactory.timeField({
 
 如果你遇到问题可以在`issue`中提出，也可以进群交流
 
-![](E:\project\github\react_bpmnjs\static\qun.png)
+![](https://github.com/griabcrh/react_bpmnjs/blob/master/static/qun.png
+)
 
 
 
