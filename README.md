@@ -752,17 +752,3 @@ const node = entryFactory.timeField({
 
 ![](https://github.com/griabcrh/react_bpmnjs/blob/master/static/zanshang.jpg)
 
-
-
-如果你有好的关于bpmn-js的使用方法、解决思路、文章可以联系`易样(作者)`投稿👏👏👏，微信号：crh2466882596
-
-
-
-如果你遇到问题可以在`issue`中提出，也可以进群交流
-
-![](https://github.com/griabcrh/react_bpmnjs/blob/master/static/qun.png
-)
-
-
-
-进群二维码失效请联系作者
