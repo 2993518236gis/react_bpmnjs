@@ -1,6 +1,6 @@
 # react + bpmn-js + antd实现流程设计器和流程跟踪
 
-## 1. Bpmn.js简介
+## 1. bpmn-js简介
 
 bpmn.js是一个BPMN2.0渲染工具包和web建模器.
 

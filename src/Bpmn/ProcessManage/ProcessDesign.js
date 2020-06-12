@@ -1,5 +1,5 @@
 import React, { PureComponent } from 'react';
-import { Card, Button, notification, Modal, List, message } from 'antd';
+import { notification } from 'antd';
 import FullModal from '@/widgets/FullModal';
 // Bpmn 相关文件
 // 这里引入的是右侧属性栏这个框
